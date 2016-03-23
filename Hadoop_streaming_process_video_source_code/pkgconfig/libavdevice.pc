@@ -1,0 +1,14 @@
+prefix=/root/ffmpeg
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: libavdevice
+Description: FFmpeg device handling library
+Version: 56.0.100
+Requires: libavfilter >= 5.1.100, libswscale >= 3.0.100, libavformat >= 56.4.101, libavcodec >= 56.1.100, libswresample >= 1.1.100, libavutil >= 54.7.100
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lavdevice -lX11 -lasound -lSDL -lm -lz -pthread
+Libs.private: 
+Cflags: -I${includedir}
