@@ -22,9 +22,9 @@ enter the directory: Hadoop_streaming_process_video_source_code, compile it as f
   (1) `./cinputFormat.sh`  
   (2) GetVideoInfo.cpp; ParAbstract.cpp, are the corresponding source files.  
 4. to parse the picture from sequencefile, you should generate "ImageToBin_local.class", do it as followings.  
-  (1) `./parseImage.sh` 
+  (1) `./parseImage.sh`  
   (2) ImageToBin_local.java is the corresponding source file.  
-## then you can run this application
+## Run this application
 please enter the directory: Run_this_file, run it as followings.  
 1. to run MapReduce application, do it as followings.  
   (1) `./runHadoop.sh`  
