@@ -16,11 +16,11 @@ enter the directory: Hadoop_streaming_process_video_source_code, compile it as f
   (6) enter the directory: main, then `make`.  
   (7) main/MapperVideo.cpp is the main source file of C++ code.  
 2. to generate "ContentInputFormat.class,ContentRecordReader.class,GetVideoInfo.class,CustomInputSplit.class" from Java source code, do it as followings.  
-  (1) `./jinputFormat.sh`
+  (1) `./jinputFormat.sh`  
   (2) ContentInputFormat.java; ContentRecordReader.java; GetVideoInfo.java; CustomInputSplit.java, these files are the source files of Java code.  
 3. to generate "libInputFormatSo.so", do it as followings.  
   (1) `./cinputFormat.sh`  
-  (2) GetVideoInfo.cpp; ParAbstract.cpp, are the corresponding source files.
+  (2) GetVideoInfo.cpp; ParAbstract.cpp, are the corresponding source files.  
 4. to parse the picture from sequencefile, you should generate "ImageToBin_local.class", do it as followings.  
   (1) `./parseImage.sh` 
   (2) ImageToBin_local.java is the corresponding source file.  
